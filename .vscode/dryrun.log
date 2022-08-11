@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/william/Hack-Reactor/flightapi/amadeus-flight-booking-django'
+docker build -t amadeus4dev/flight-booking:latest -f Dockerfile .
+make: Leaving directory `/Users/william/Hack-Reactor/flightapi/amadeus-flight-booking-django'
+ 
