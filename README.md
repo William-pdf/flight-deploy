@@ -21,11 +21,8 @@ The container receives your API key/secret from the environment variables.
 Before running the container, make sure your have your credentials correctly
 set:
 
-```sh
-export AMADEUS_CLIENT_ID=YOUR_API_KEY
-export AMADEUS_CLIENT_SECRET=YOUR_API_SECRET
-export AMADEUS_HOSTNAME=test
-```
+`
+``
 
 Finally, start the container from the image:
 
@@ -52,10 +49,6 @@ make stop
 
 Clone the repository.
 
-```sh
-git clone https://github.com/amadeus4dev/amadeus-flight-booking-django.git
-cd amadeus-flight-booking-django
-```
 
 Next create a virtual environment with [virtualenv](https://virtualenv.pypa.io/en/stable/installation.html) and install the dependencies.
 
@@ -103,7 +96,4 @@ Finally, open a browser and go to `http://127.0.0.1:8000`
 
 This library is released under the [MIT License](LICENSE).
 
-## Help
 
-You can find us on [StackOverflow](https://stackoverflow.com/questions/tagged/amadeus) or join our developer community on
-[Discord](https://discord.gg/cVrFBqx).
